@@ -7,9 +7,7 @@ import { NgWizardConfig, StepChangedArgs } from '../utils/interfaces';
 import { THEME } from '../utils/enums';
 import { merge } from '../utils/functions';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class NgWizardDataService {
   resetWizard$: Observable<any>;
   showNextStep$: Observable<any>;

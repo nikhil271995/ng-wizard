@@ -40,7 +40,6 @@ export interface NgWizardConfig {
     theme?: THEME; // theme for the wizard, related css need to include for other than default theme
 }
 
-@Directive()
 export abstract class NgWizardStep {
     index: number;
 
